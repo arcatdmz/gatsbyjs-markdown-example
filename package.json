@@ -1,10 +1,18 @@
 {
-  "name": "wiss2019-website",
-  "private": true,
-  "description": "WISS 2019 website",
-  "version": "0.1.0",
-  "author": "WISS organizing committee",
-  "dependencies": {
+  "name": "gatsbyjs-markdown-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arcatdmz/gatsbyjs-markdown-example.git",
+  "author": "Jun Kato <i@junkato.jp>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
     "gatsby": "^2.1.4",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-offline": "^2.0.23",
@@ -17,23 +25,5 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-helmet": "^5.2.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/WISSOrg/web2019"
-  },
-  "bugs": {
-    "url": "https://github.com/WISSOrg/web2019/issues"
   }
 }
